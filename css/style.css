@@ -10,7 +10,7 @@
 
 body{
     font-family: sans-serif;
-    background-color: #141922;
+  ;
    
 }
 
@@ -40,10 +40,12 @@ button{
 
 main{
    overflow: auto;
-   width: calc(700px-80px);
-  
-  
-   
+   height: calc(100vh - 70px);
+
+}
+
+hr{
+    width: 70%;
 }
 
 
@@ -51,8 +53,9 @@ main{
     SITE SECTIONS
  ************************************************/
  .containerMain{
-    height: 660px;
     display: flex;
+    width: 100%;
+   
    
 
     
@@ -70,11 +73,20 @@ main{
     font-weight: bold;
 }
 
-.column-right{
+.containerColumn{
+    width: 20%;
+    overflow: auto;
+    
+    
+    
+}
+.column-left{
+    width: 20%;
     height: calc(660px -70px);
-   
+    position: fixed;  
    
 }
+
 
 
 .menu{
@@ -85,23 +97,32 @@ main{
    
 }
 
+.playlist{
+    
+}
+
 /****High button***/
 .container{
     width: 100%;
     height: 10%;
+    
 }
+
+
 
 .button-right{
     width: 100%;
     display: flex;
     justify-content: flex-end;  
     flex-wrap: wrap;
+    height: 10%;
+    padding: 16px;
 
 }
 /***horizontal menu ***/
 
 .horizontal-menu{
-    margin-top: 4rem;
+    padding-top: 1rem;
     height: 100px;
     width: 100%;
 }
@@ -117,7 +138,6 @@ main{
 .containerContenuto{
    display: flex;
    flex-wrap: wrap;
-   width: calc(100% -15%);  
    gap: 0.5rem;
    text-align: center;
 }
@@ -139,8 +159,8 @@ main{
 
 .fa-play-circle{
     position: absolute;
-    top: 9em;
-    right: 9em;
+    top: 5em;
+    right: 5em;
     cursor: pointer;
    
 }
@@ -168,13 +188,15 @@ main{
     height: 70px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    
 
      
 }
 
 .content-imgFooter{
     width: 5%;
+    padding: 0.5rem;
     
 }
 
@@ -185,29 +207,47 @@ main{
     
 }
 
-  .letter-sizeFooter{ 
-    font-size: 70%; 
-}
 .content-icons{ 
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    width: 5%;
+    width: 20%;
+    padding-right: 0.5rem;
+}
 
+.fa-heart{
+    padding-right: 0.5rem;
 }
 
 .centro{
-    width: 30%;
-    text-align: center;
+    width: 40%;
+    
+    
+
+
+}
+.icone-centro{
+    display: flex;
+    justify-content: center;
+  }
+
+.bar-menu{
+    display: flex;
+    align-items: center;
+    
+}
+
+.letter-sizeFooter{ 
+    font-size: 70%; 
+    padding: 0.5rem;
 }
 
 .icona-right{
-    width: 30%;
+    width: 15%;
     display: flex;
+    justify-content: flex-end;
 }
-
 .bar{
-    width: 10%;
+    width: 5%;
 
 }
 
@@ -219,26 +259,20 @@ main{
     
   }
 
-
-
+  
 .progress-bar {
     width: 100%;
     height: 3px;
     background-color: #6B6D71;
-   
-   
+
   }
   
   .progress {
     width: 20%;
     height: 100%;
     background-color: white;
- 
   }
-  .bar-menu{
-    display: flex;
-    width: 100%;
-}
+
 
 
 
