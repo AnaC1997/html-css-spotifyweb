@@ -59,10 +59,6 @@ hr {
 .containerMain {
     display: flex;
     width: 100%;
-
-
-
-
 }
 
 
@@ -84,9 +80,6 @@ hr {
 .containerColumn {
     width: 20%;
     overflow: auto;
-
-
-
 }
 
 .column-left {
@@ -95,18 +88,12 @@ hr {
 
 }
 
-
-
 .menu {
     display: flex;
     flex-direction: column;
     height: 150px;
     justify-content: flex-end;
-
 }
-
-.playlist {}
-
 /****High button***/
 .container {
     width: 100%;
@@ -123,7 +110,6 @@ hr {
     flex-wrap: wrap;
     height: 10%;
     padding: 16px;
-
 }
 
 /***horizontal menu ***/
@@ -156,6 +142,7 @@ hr {
 
 .content-img {
     width: 100%;
+    
 }
 
 .card {
@@ -172,8 +159,8 @@ hr {
 
 .fa-play-circle {
     position: absolute;
-    top: 5em;
-    right: 5em;
+    top: 43%;
+    right: 47%;
     cursor: pointer;
 
 }
@@ -208,6 +195,7 @@ hr {
 }
 
 .content-imgFooter {
+    position: relative;
     width: 5%;
     padding: 0.5rem;
 
